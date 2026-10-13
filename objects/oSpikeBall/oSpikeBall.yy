@@ -9,7 +9,10 @@
     "name":"objects",
     "path":"folders/objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oThingsToMakeDie",
+    "path":"objects/oThingsToMakeDie/oThingsToMakeDie.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

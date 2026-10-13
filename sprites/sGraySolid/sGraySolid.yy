@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"sGraySolid",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":46,
-  "bbox_left":1,
-  "bbox_right":48,
+  "bbox_left":2,
+  "bbox_right":47,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
