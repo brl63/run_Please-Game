@@ -14,7 +14,7 @@ switch(move_type){
 		xsp = 0;
 		ysp = move_speed *dir;
 		
-	if (place_meeting(x + xsp, y, oSolid))
+	if (place_meeting(x, y + ysp, oSolid))
         {
             dir *= -1;
             xsp = move_speed * dir;

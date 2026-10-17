@@ -51,7 +51,16 @@ if (_platform != noone)
     y += _platform.ysp;
 }
 // Apply Movement & Collision
-move_and_collide(xsp, ysp, oSolid);
+if (ysp < 0)
+{
+    // for platforms
+    move_and_collide(xsp, ysp, oSolid, 4, 0, 0, [oPlatforms]);
+}
+else
+{
+    
+    move_and_collide(xsp, ysp, oSolid);
+}
 
 //  Win and Death Triggers
 if (place_meeting(x, y, oFlag))
