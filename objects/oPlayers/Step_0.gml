@@ -50,6 +50,7 @@ if (_platform != noone)
     x += _platform.xsp;
     y += _platform.ysp;
 }
+
 // Apply Movement & Collision
 if (ysp < 0)
 {
@@ -63,12 +64,30 @@ else
 }
 
 //  Win and Death Triggers
-if (place_meeting(x, y, oFlag))
+var _flag = instance_place(x, y, oFlag);
+if (_flag != noone) && (_flag.visible)
 {
     room_goto_next();
 }
 
 if (place_meeting(x, y, oThingsToMakeDie))
 {
-    room_restart();
+  
+    var _touching_boss = instance_place(x, y, oMiniBoss);
+    if (_touching_boss != noone)
+    {
+     
+        if (ysp < 0) || (bbox_bottom <= _touching_boss.y + 4)
+        {
+        
+        }
+        else
+        {
+            room_restart(); // موت عالي الجوانب/الأسفل
+        }
+    }
+    else
+    {
+        room_restart(); // الموت العادي مع باقي الأشياء
+    }
 }
