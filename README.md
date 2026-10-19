@@ -1,14 +1,12 @@
 # Run Please
-
-A simple platforming rooms-style game where every room has multiple floors, made for the Terra Hackathon.
-
+ is a fast-paced 2D platformer developed for the Terra Hackathon. The game multiple progression style where players must navigate through vertically structured levels filled with multiple floor  precision platforms and tricky layouts. Every room presents a unique navigational challenge requiring careful timing, quick reflexes, and precise movement to reach the next area.
 > **Note:** The game isn't complete yet or near to.
 
 ---
 
 ##  How to Play
-- **Move:** Arrow keys
-- **Jump:** Spacebar
+- Move: Arrow keys
+- Jump:Spacebar
 
 ###  Play
 You can play it online by clicking here:  
@@ -25,6 +23,7 @@ You can download the executable game files from the Release page:
 
 ## Technologies Used
 - Developed using **GameMaker**
+- physics and player controllers using GML
 
 ----------------
 
@@ -34,7 +33,7 @@ You can download the executable game files from the Release page:
 
 
 ##  Credits
-- Graphic Assets: **Pixel Adventure 1** by Pixel Frog  
+- Graphic Assets: Pixel Adventure 1 by Pixel Frog  
   on itch.io: [Pixel Adventure 1 on itch.io](https://pixelfrog-assets.itch.io/pixel-adventure-1)
 
 
