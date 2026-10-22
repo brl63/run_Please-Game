@@ -1,8 +1,8 @@
-if (instance_exists(oMiniBoss))
-{
-    visible = false;
-}
-else
-{
-    visible = true;
-}
+//if (instance_exists(oMiniBoss))
+//  {
+//    visible = false;
+//}
+//else
+//{
+//    visible = true;
+//}
